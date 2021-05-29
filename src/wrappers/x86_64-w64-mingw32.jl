@@ -10,19 +10,19 @@ function __init__()
     JLLWrappers.@generate_init_header(Ogg_jll)
     JLLWrappers.@init_library_product(
         libvorbis,
-        "bin/libvorbis-0.dll",
+        "bin\\libvorbis-0.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libvorbisenc,
-        "bin/libvorbisenc-2.dll",
+        "bin\\libvorbisenc-2.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libvorbisfile,
-        "bin/libvorbisfile-3.dll",
+        "bin\\libvorbisfile-3.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
